@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editable-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.inputContainer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.input {
+  border: 1px solid #323f4b;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  color: #323f4b;
+}
+.describe {
+  color: #323f4b;
+  font-size: 15px;
+  font-weight: bold;
+}
+.save {
+  background-color: #d946ef;
+  color: #f5d0fe;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
